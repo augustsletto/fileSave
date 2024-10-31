@@ -14,12 +14,13 @@ def frequence_of_0_to_9(big_number):
     
     
     frequency = [0] * 10
+    print(frequency)
     
     for digit in big_number:
         frequency[int(digit)] += 1
     return frequency
 
-#print(is_number_in_string(12, "093840981219433084"))
+print(is_number_in_string(12, "093840981219433084"))
 
 
 big_number = "111445"
